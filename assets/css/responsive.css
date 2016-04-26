@@ -1,0 +1,158 @@
+
+
+/*
+Author: Bootstrapthemes
+Author URI: http://www.bootstrapthemes.co
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+    .navbar-default .navbar-nav>li {
+        width: 150px;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+    h3 {
+        font-size: 1.575rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #696f7c;
+        line-height: 1.475rem;
+    }
+    .navbar-default .navbar-nav>li {
+        width: 115px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .header .navbar-brand>img {
+        max-width: 70%;
+    }
+
+
+
+}
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+
+    .head_top_social{
+        display: none;
+    }
+    .main-nav {
+        height: auto;
+    }
+    .single_news_right_content {
+        padding: 0px 15px;
+    }
+    .single_news_right_content .single_right_content {
+        height: 112px;
+    }  
+
+    .single_news_right_content{
+        margin-bottom: 86px;
+        max-width: 100%;
+        float: none;
+    }
+    .header .navbar-brand>img {
+        max-width: 70%;
+    }
+    .ourmaps {
+        height: auto;
+    }
+    .service_border_raund {
+        left: 37%;
+    }
+
+    .navbar-default .navbar-nav>li {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 0px 10px;
+        height: 40px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'latobold';
+        font-size: 1.125rem;
+        letter-spacing: 2px;
+        line-height: 40px;
+        padding: 0px;
+    }
+    .navbar-toggle {
+        margin-top: 30px;
+    }
+    .header .navbar-default {
+        background-color: rgba(3, 47, 62, 0.4);
+
+    }
+
+    .single_portfolio_content .single_content_item{
+        margin-bottom:30px;  
+    }
+    .single_service {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .single_widget{
+        margin-bottom: 20px
+    }
+
+}
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+    html {
+        font-size: 65%;
+    }
+    .header .navbar-brand>img {
+        max-width: 70%;
+    }
+    .service_border_raund {
+        left: 30%;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    html {
+        font-size: 60.5%;
+    }
+
+
+
+
+
+
+
+}
+
